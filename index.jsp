@@ -9,7 +9,7 @@
 <body>
 <br><br><br><br><br>
 <div style="text-align:center; color:red; font-size: 60px;">
-	<h1>天玑科技。</h1>
+	<h1>天玑科技~~~</h1>
 </div>
 </body>
 </html>
