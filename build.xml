@@ -25,6 +25,11 @@
 	 <exclude name="**/src/**"/>
     </fileset>
    </war>
+   <copy todir="C:\Users\fls\Downloads\apache-tomcat-6.0.45-windows-x64\apache-tomcat-6.0.45\webapps">    
+			 <fileset dir="${basedir}">     
+			 	<include name="demo.war" /> 
+			</fileset> 
+   </copy>
  </target>
 <target name="clean">
    <delete dir="${dest}" />
