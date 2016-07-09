@@ -17,7 +17,7 @@
    <java classname="com.zdz.ant.test.HelloAnt" classpath="${helloant_jar}"/>
 </target>
  <target name="war"  depends="build">
-   <war warfile="${basedir}/${SystemVariable.JOB_NAME}.war">
+   <war warfile="${basedir}/demo.war">
     <fileset dir="${basedir}">
      <exclude name="**/doc/**"/>
      <exclude name="**/bin/**"/>
@@ -29,7 +29,7 @@
 <target name="clean">
    <delete dir="${dest}" />
    <delete file="${helloant_jar}" />
-   <delete file="${basedir}/${SystemVariable.JOB_NAME}.war" />
+   <delete file="${basedir}/demo.war" />
 </target>
 <target name="rerun" depends="clean">
    <ant target="run" />
